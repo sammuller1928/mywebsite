@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'sammuller.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'projectdb',
+        'USER': 'root',
+        'PASSWORD': 'Mac191919.'
     }
 }
 
