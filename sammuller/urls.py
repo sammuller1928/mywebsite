@@ -19,5 +19,6 @@ from sammullerApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.Home)
+    path('home/', views.Home),
+    path('music/', views.Music)
 ]

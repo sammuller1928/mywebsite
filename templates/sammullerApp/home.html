@@ -1,10 +1,17 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <title>Home</title>
+    <link rel="stylesheet" href="{% static "css/home.css" %}">
   </head>
   <body>
-    <h1>Hello world, meet Sam Müller</h1>
+    <h1>Sam Müller</h1>
+    <button type="button" name="Music">
+      <a href="/music">Music</a>
+    </button>
+
+    <button type="button" name="Thoughts">Thoughts</button>
+    <button type="button" name="Collections">Collections</button>
   </body>
 </html>
